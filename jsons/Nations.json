@@ -1,0 +1,41 @@
+[
+	{
+		"name": "Kjerag",
+		"leaderName": "Enya",
+		"adjective": ["Kjeragi"],
+		"startBias": ["Snow"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "Kjerag is a Terran country bordering Columbia, Kazimierz, Minos, and Victoria that is located on the central mountain range of the continent. It is a theocracy centering on the worship of Kjeragandr, the national goddess who protects the land, with the Karlan Saintess serving as both the spiritual leader and political figurehead. Due to its rugged, snowbound mountainous landscape that protects Kjerag from Catastrophes and foreign invasions, Kjerag is given the nickname as the 'Snow Realm.'",
+		"startIntroPart2": "'That day, She proclaimed to the people: My eyes shall watch over you, my fur shall warm you, my backbone shall protect you, while my flesh and blood shall bless you. You have learned the way of wind and snow, and learned the form of walking. You are the people of Kjerag, and the land of Kjerag belongs to you from this day forth.' ——The Third Protection, Page 32, Line 2",
+		
+		"declaringWar": "You shall go no further... The people of Kjerag solemnly will your demise.",
+		"attacked": "The valiant and faithful who call this land their home will arise to defend it... You too will behold the power the mountains pledged to me.",
+		"defeated": "...The snow shall cover our tracks, and grant us the chance to return. The spirit of our people is not so easily weathered.",
+		"introduction": "Amidst the undying winds of the Snow Realm and the unending fall of snow, Enya of Kjerag now stands before you... Greetings to you, weary traveler. May Kjeragandr's blessings fall upon you.",
+		
+		"neutralHello": "Greetings. Let me pray towards the mountains for you.",
+		//"neutralLetsHearIt": ["Go on.","Let us begin.","Hm?"],
+		//"neutralNo": ["We refuse.","No.","I refuse."],
+		//"neutralYes": ["Very good.","Of course, yes.","You have my blessings."],
+
+		"hateHello": "What do you want now?",
+		//"hateLetsHearIt": ["Speak!","What did you say?","..."],
+		//"hateNo": ["Sorry, I'm busy right now.","Don't force all those rigid terms on me.","Silence."],
+		//"hateYes": ["Acceptable...","I suppose so.","Very well..."],
+		
+		//"afterPeace": "...In the end, our gain is greater than our loss. Before the snow hides our footprints, we must discern which bad habits it is time to let go.",
+		"tradeRequest": "I'd be happy to help you, but the life of a Karlan Saintess is a busy one. Well, I guess I'll make an exception for you this once, but please make it short.",
+		"denounced": "Your struggles are feeble.",
+		"declaringfriendship": "'After hard work comes a good night's rest.' The Saintess decrees it so, friend.",
+
+		"outerColor": [255,255,255],
+		"innerColor": [0,0,0],
+		"uniques": ["Starts with [Aristocracy] adopted", "[+15]% Production when constructing [Faith] wonders [in all cities]", "Free [Great Prophet] appears <upon discovering [Theology] technology>"],
+		"uniqueName": "The Snow Realm",
+		"cities": ["Turicum","Karlan","Silberneherze","Jungfrau","Matterhorn","Filnona","Peseux","Solothurn","Sion",
+			"Aarau","Zofingen","Zug","Risch","Morges","Bern","Liestal","Veyrier","Nyon","Thalwil",
+			"Horgen","Bassesrdorf","Ittigen","La Tour-De-Peilz","Lausanne","Lenzburg","Montreux","Muri bei Bern","Pully","Rheinfelden",
+			"Stans","Vevey","Visp","Rue","Olten","Orbe"]
+	}
+]

@@ -29,7 +29,7 @@
   {
 		"name": "Icefield Berserker",
     "uniqueTo": "Kjerag"
-    "replaces": "Longswordsman",
+    "replaces": "Longswordman",
 		"unitType": "Armored",
 		"movement": 2,
 		"strength": 26,

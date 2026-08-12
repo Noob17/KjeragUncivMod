@@ -31,15 +31,14 @@
   {
 		"name": "Icefield Berserker",
 	 	 "uniqueTo": "Kjerag",
-	 	 "replaces": "Musketman",
+	 	 "replaces": "Longswordsman",
 		"unitType": "Armored",
 		"movement": 2,
-		"strength": 30,
-		"cost": 170,
-		"requiredTech": "Gunpowder",
-		"upgradesTo": "Rifleman",
-		"obsoleteTech": "Rifling",
-		"attackSound": "shot",
+		"strength": 25,
+		"cost": 140,
+		"requiredTech": "Steel",
+		"obsoleteTech": "Gunpowder",
+		"attackSound": "metalhit",
     	"uniques": ["[20]% Strength <when attacking>", "No damage penalty for wounded units"]
 	}
 ]

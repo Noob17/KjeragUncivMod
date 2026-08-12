@@ -1,9 +1,9 @@
 [
   {
 		"name": "Icefield Warrior",
-    "uniqueTo": "Kjerag"
+  	  "uniqueTo": "Kjerag"
 		"unitType": "Sword",
-    "replaces": "Warrior",
+  	  "replaces": "Warrior",
 		"movement": 2,
 		"strength": 10,
 		"cost": 45,
@@ -11,12 +11,13 @@
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit",
+	  "uniques": ["[10] HP when healing <in [Hill] tiles>"]
   },
   {
 		"name": "Icefield Hunter",
-    "uniqueTo": "Kjerag"
+   		 "uniqueTo": "Kjerag"
 		"unitType": "Archery",
-    "replaces": "Crossbowman",
+   		 "replaces": "Crossbowman",
 		"movement": 2,
 		"strength": 10,
 		"rangedStrength": 21,
@@ -25,19 +26,20 @@
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
 		"attackSound": "crossbow"
+	  "uniques": ["[10]% Strength <when attacking> <vs [Wounded] units>"]
 	},
   {
 		"name": "Icefield Berserker",
-    "uniqueTo": "Kjerag"
-    "replaces": "Longswordsman",
+	 	 "uniqueTo": "Kjerag",
+	 	 "replaces": "Musketman",
 		"unitType": "Armored",
 		"movement": 2,
-		"strength": 26,
-		"cost": 135,
-		"requiredTech": "Steel",
-		"upgradesTo": "Musketman",
-    "uniques": ["[20]% Strength <when attacking>", "No damage penalty for wounded units"],
-		"obsoleteTech": "Gunpowder",
-		"attackSound": "nonmetallhit"
+		"strength": 30,
+		"cost": 170,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"attackSound": "shot",
+    	"uniques": ["[20]% Strength <when attacking>", "No damage penalty for wounded units"]
 	}
 ]

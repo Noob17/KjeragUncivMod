@@ -1,0 +1,43 @@
+[
+  {
+		"name": "Icefield Warrior",
+    "uniqueTo": "Kjerag"
+		"unitType": "Sword",
+    "replaces": "Warrior",
+		"movement": 2,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "Agriculture",
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit",
+  },
+  {
+		"name": "Icefield Hunter",
+    "uniqueTo": "Kjerag"
+		"unitType": "Archery",
+    "replaces": "Crossbowman",
+		"movement": 2,
+		"strength": 10,
+		"rangedStrength": 21,
+		"cost": 115,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"attackSound": "crossbow"
+	},
+  {
+		"name": "Icefield Berserker",
+    "uniqueTo": "Kjerag"
+    "replaces": "Longswordsman",
+		"unitType": "Armored",
+		"movement": 2,
+		"strength": 26,
+		"cost": 135,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+    "uniques": ["[20]% Strength <when attacking>", "No damage penalty for wounded units"],
+		"obsoleteTech": "Gunpowder",
+		"attackSound": "nonmetallhit"
+	}
+]

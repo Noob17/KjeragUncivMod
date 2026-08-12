@@ -1,0 +1,22 @@
+[
+	{
+		"name": "Hoff Angrsaal",
+		"replaces": "Grand Temple",
+		"uniqueTo": "Kjerag",
+		"cost": 165,
+		"faith": 10,
+		"culture": 2,
+		"uniques": ["Only available <if [Temple] is constructed in all [in all cities] cities>", "Cost increases by [45] per owned city", "[+175]% Natural religion spread [in this city]", "[+1 Gold, +2 Production] from [Mine] tiles [in this city]", "Only available <when religion is enabled>", "Can only be built <in [Holy] cities>"],
+		"isNationalWonder": true,
+		"requiredBuildingInAllCities": "Temple",
+		"requiredTech": "Theology"
+	},
+	{
+		"name": "Cold-Chain Development Center",
+		"uniqueTo": "Kjerag",
+		"cost": 650,
+		"Food": 1,
+		"uniques": ["50% of food is carried over after a new citizen is born"],
+		"requiredTech": "Refrigeration"
+	}
+]

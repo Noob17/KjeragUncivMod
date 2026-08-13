@@ -15,8 +15,9 @@
 	{
 		"name": "Cold-Chain Development Center",
 		"uniqueTo": "Kjerag",
-		"cost": 650,
-		"food": 2,
+		"cost": 600,
+		"food": 1,
+		"science": 1,
 		"uniques": ["[40]% Food is carried over after population increases [in this city]"],
 		"requiredTech": "Refrigeration"
 	},

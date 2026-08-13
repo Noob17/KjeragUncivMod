@@ -1,7 +1,7 @@
 [
   {
 		"name": "Icefield Warrior",
-  	  "uniqueTo": "Kjerag"
+  	  "uniqueTo": "Kjerag",
 		"unitType": "Sword",
   	  "replaces": "Warrior",
 		"movement": 2,
@@ -15,7 +15,7 @@
   },
   {
 		"name": "Icefield Hunter",
-   		 "uniqueTo": "Kjerag"
+   		 "uniqueTo": "Kjerag",
 		"unitType": "Archery",
    		 "replaces": "Crossbowman",
 		"movement": 2,
@@ -25,10 +25,10 @@
 		"requiredTech": "Machinery",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
-		"attackSound": "crossbow"
+		"attackSound": "crossbow",
 	  "uniques": ["[10]% Strength <when attacking> <vs [Wounded] units>"]
 	},
-  {
+  	{
 		"name": "Icefield Berserker",
 	 	 "uniqueTo": "Kjerag",
 	 	 "replaces": "Longswordsman",
@@ -55,7 +55,7 @@
 		"upgradesTo:" "Rocket Artillery",
 		"promotions": ["Indirect Fire", "Cover 1"],
 		"uniques": ["[+250]% Strength <vs cities> <when attacking>",
-			"Must set up to ranged attack","[-2] Sight"]
+			"Must set up to ranged attack","[-2] Sight"],
 		"attackSound": "artillery"
 	},
 	{

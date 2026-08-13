@@ -53,7 +53,7 @@
 		"strength": 30,
 		"rangedStregth": 30,
 		"upgradesTo": "Rocket Artillery",
-		"promotions": ["Indirect Fire", "Cover 1"],
+		"promotions": ["Indirect Fire", "Cover I"],
 		"uniques": ["[+250]% Strength <vs cities> <when attacking>",
 			"Must set up to ranged attack","[-2] Sight"],
 		"attackSound": "artillery"
@@ -82,7 +82,7 @@
 		"cost": 340,
 		"requiredTech": "Replaceable Parts",
 		"obsoleteTech": "Mobile Tactics",
-		"upgradesTo": "Mobile Infantry"
+		"upgradesTo": "Mechanized Infantry"
 		"attackSound": "metalhit",
 		"uniques": ["Can build [Fort] improvements on tiles", "[+20]% Strength <vs [Gunpowder] units>", "[+10] Strength <when fighting units from a Civilization with more Cities than you>"]
 	}

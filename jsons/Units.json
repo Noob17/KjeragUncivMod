@@ -42,7 +42,7 @@
     	"uniques": ["[20]% Strength <when attacking>", "No damage penalty for wounded units"]
 	},
 	{
-		"Name": "Kjeragi Mountain Artillery",
+		"name": "Kjeragi Mountain Artillery",
 		"uniqueTo": "Kjerag",
 		"replaces": "Artillery",
 		"unitType": "Siege",
@@ -81,8 +81,8 @@
 		"strength": 70,
 		"cost": 340,
 		"requiredTech": "Replaceable Parts",
-		"upgradesTo": "Plastics",
 		"obsoleteTech": "Mobile Tactics",
+		"upgradesTo": "Mobile Infantry"
 		"attackSound": "metalhit",
 		"uniques": ["Can build [Fort] improvements on tiles", "[+20]% Strength <vs [Gunpowder] units>", "[+10] Strength <when fighting units from a Civilization with more Cities than you>"]
 	}

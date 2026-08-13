@@ -40,5 +40,50 @@
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit",
     	"uniques": ["[20]% Strength <when attacking>", "No damage penalty for wounded units"]
+	},
+	{
+		"Name": "Kjeragi Mountain Artillery",
+		"uniqueTo": "Kjerag",
+		"replaces": "Artillery",
+		"unitType" "Siege",
+		"movement": 1,
+		"range": 4,
+		"cost": 350,
+		"requiredech": "Dynamite",
+		"strength": 30,
+		"rangedStregth": 30,
+		"upgradesTo:" "Rocket Artillery",
+		"promotions": ["Indirect Fire", "Cover 1"],
+		"uniques": ["[+250]% Strength <vs cities> <when attacking>",
+			"Must set up to ranged attack","[-2] Sight"]
+		"attackSound": "artillery"
+	},
+	{
+		"name": "Walnut",
+		"uniqueTo": "Kjerag"
+		"unitType": "Armored",
+		"movement": 2,
+		"strength": 85,
+		"cost": 400,
+		"requiredTech": "Combustion",
+		"requiredResource": "Oil",
+		"obsoleteTech": "Lasers",
+		"promotions": ["Charge"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Limited to [1] per Civilization", "Can only be built <while the empire is happy>", "Consumes [1] [Iron]"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Tschäggättä",
+		"uniqueTo": "Kjerag",
+		"replaces": "Infantry",
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 80,
+		"cost": 385,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Mechanized Infantry",
+		"obsoleteTech": "Mobile Tactics",
+		"attackSound": "metalhit",
+		"uniques": ["Can build [Fort] improvements on tiles", "[+20]% Strength <vs [Gunpowder] units>", "[+10] Strength <when fighting units from a Civilization with more Cities than you>"]
 	}
 ]

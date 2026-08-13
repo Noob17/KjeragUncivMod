@@ -9,14 +9,42 @@
 		"uniques": ["Only available <if [Temple] is constructed in all [in all cities] cities>", "Cost increases by [45] per owned city", "[+175]% Natural religion spread [in this city]", "[+1 Gold, +2 Production] from [Mine] tiles [in this city]", "Only available <when religion is enabled>", "Can only be built <in [Holy] cities>"],
 		"isNationalWonder": true,
 		"requiredBuildingInAllCities": "Temple",
-		"requiredTech": "Theology"
+		"requiredTech": "Theology",
+		"quote": "'Remember the path you walked, and let not yourself forget; Fear the blizzard that has yet to come, and let not yourself be arrogant; Clutch your bows and arrows, pickaxes and hoes tight, and let not yourself be careless; Love your brothers and sisters, love your neighbors and friends, and love the rocks and hills, the grass and trees, as you would love your own siblings. Heed these words, and no calamity shall prevail over you, and your home and hearth will be safe forever more.' - Kjeragandr"
 	},
 	{
 		"name": "Cold-Chain Development Center",
 		"uniqueTo": "Kjerag",
 		"cost": 650,
-		"Food": 1,
+		"Food": 2,
 		"uniques": ["[40]% Food is carried over after population increases [in this city]"],
 		"requiredTech": "Refrigeration"
+	},
+	{
+		"name": "Karlan Trade Inn",
+		"replaces": "Windmill",
+		"cost": 265,
+		"uniqueTo": "Kjerag",
+		"Happiness": 2,
+		"Culture": 2,
+		"specialistSlots": {"Merchant": 1},
+		"maintenance": 2,
+		"uniques": ["Must not be on [Hill]", "Can be purchased with [Faith] [in all cities]", "[-10]% Unhappiness from [Followers of this Religion] [in this city]"],
+		"requiredTech": "Economics"
+	},
+	{
+		"name": "Kjerag Basic Education Development Project",
+		"uniqueTo": "Kjerag"
+		"cost": 125
+		"science": 5,
+		"faith": 3,
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuildingInAllCities": "Public School",
+		"maintenance": 2,
+		"isNationalWonder": true,
+		"requiredBuildingInAllCities": "Public School",
+		"uniques": ["[+2 Science] per [4] population [in all cities]", "Only available <if [Public School] is constructed in all [in all cities] cities>", "[+25]% [Science] from every [Public School]", "[+50]% [Science] from every [University]", "Cost increases by [30] per owned city"],
+		"requiredTech": "Scientific Theory",
+		"quote": "'I never thought I would once again have the chance to sit in a warm room with the children, reading to them the ancient words of wisdom. For the first time, I saw something other than ignorance or mischief on their faces. It was a desire, a thirst for knowledge and the future. Your workers repaired our houses, and built a school in the dilapidated temple. You delivered dictionaries, novels, even the latest books from abroad... You've shown the children and myself a dream, of a Kjerag that we've never seen before. This is the miracle of Kjeragandr, and the fruit of your love...' - Excerpts from the Vine-Bead Court Letters, 1101-1102, Vol.2"
 	}
 ]

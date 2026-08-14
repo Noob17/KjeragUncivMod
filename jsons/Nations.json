@@ -30,7 +30,7 @@
 		"declaringfriendship": "'After hard work comes a good night's rest.' The Saintess decrees it so, friend.",
 
 		"outerColor": [255,255,255],
-		"innerColor": [205,205,205,],
+		"innerColor": [150,150,150],
 		"uniques": ["Units ignore terrain costs when moving into any tile with Hills", "[+15]% Production when constructing [Faith] wonders [in all cities]", "Free [Great Prophet] appears <upon discovering [Theology] technology>", "May buy [{pre-[Future era]} {Military} {Land}] units with [Faith] for [4] times their normal Production cost <in cities with a [major] religion>"],
 		"uniqueName": "The Snow Realm",
 		"cities": ["Turicum","Karlan","Silberneherze","Jungfrau","Matterhorn","Filnona","Peseux","Solothurn","Sion",

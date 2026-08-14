@@ -49,7 +49,7 @@
 		"movement": 1,
 		"range": 4,
 		"cost": 350,
-		"requiredech": "Dynamite",
+		"requiredTech": "Dynamite",
 		"strength": 30,
 		"rangedStregth": 30,
 		"upgradesTo": "Rocket Artillery",

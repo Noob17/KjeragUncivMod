@@ -37,7 +37,7 @@
 		"strength": 25,
 		"cost": 140,
 		"requiredTech": "Steel",
-		"obsoleteTech": "Gunpowder",
+		"obsoleteTech": "Rifling",
 		"attackSound": "metalhit",
     	"uniques": ["[20]% Strength <when attacking>", "No damage penalty for wounded units"]
 	},

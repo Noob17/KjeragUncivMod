@@ -32,7 +32,7 @@
 		"name": "Icefield Berserker",
 	 	 "uniqueTo": "Kjerag",
 	 	 "replaces": "Longswordsman",
-		"unitType": "Armored",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 25,
 		"cost": 140,

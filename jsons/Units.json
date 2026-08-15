@@ -53,6 +53,7 @@
 		"strength": 30,
 		"rangedStregth": 30,
 		"upgradesTo": "Rocket Artillery",
+		"obsoleteTech": "Rocketry"
 		"promotions": ["Indirect Fire", "Cover I"],
 		"uniques": ["[+250]% Strength <vs cities> <when attacking>",
 			"Must set up to ranged attack","[-2] Sight"],

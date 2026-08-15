@@ -51,7 +51,7 @@
 		"cost": 350,
 		"requiredTech": "Dynamite",
 		"strength": 30,
-		"rangedStregth": 30,
+		"rangedStrength": 30,
 		"upgradesTo": "Rocket Artillery",
 		"obsoleteTech": "Rocketry"
 		"promotions": ["Indirect Fire", "Cover I"],

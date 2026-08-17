@@ -11,7 +11,7 @@
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit",
-	  "uniques": ["[10] HP when healing <in [Hill] tiles>"]
+	  "uniques": ["Double movement in [Hill]"]
   },
   {
 		"name": "Icefield Hunter",
@@ -85,6 +85,6 @@
 		"obsoleteTech": "Mobile Tactics",
 		"upgradesTo": "Mechanized Infantry"
 		"attackSound": "metalhit",
-		"uniques": ["Can build [Fort] improvements on tiles", "[+20]% Strength <vs [Gunpowder] units>", "[+10] Strength <when fighting units from a Civilization with more Cities than you>"]
+		"uniques": ["[+20]% Strength <vs [Gunpowder] units>", "[+10] Strength <when fighting units from a Civilization with more Cities than you>"]
 	}
 ]
